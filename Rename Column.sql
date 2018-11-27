@@ -1,0 +1,1 @@
+EXEC sp_rename '[DB].[dbo].[Tablename].OldColumnName', 'NewColumnName', 'COLUMN'; 

@@ -1,0 +1,5 @@
+get auto generated id
+
+insert into TB('a','b')
+
+select @id=scope_Identity

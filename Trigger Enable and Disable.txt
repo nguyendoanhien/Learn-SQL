@@ -1,0 +1,2 @@
+DISABLE TRIGGER [TRIGGER_NAME] ON [TABLE CONTAIN TRIGGER];  
+ENABLE TRIGGER Sales.bonus_reminder ON Sales.SalesPersonQuotaHistory;  

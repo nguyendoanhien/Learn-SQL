@@ -1,0 +1,4 @@
+Return Immediately first COLUMN not null
+
+SELECT COALESCE(FirstName, MiddleName, LastName) as Name
+FROM   tblEmployee

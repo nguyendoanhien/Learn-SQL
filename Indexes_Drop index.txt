@@ -1,0 +1,1 @@
+drop index [Table_Name].[Index_Name]

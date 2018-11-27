@@ -1,0 +1,1 @@
+ALTER TABLE [Table_Name] ADD CONSTRAINT [Constrain_Name] UNIQUE (Clustered) [Column_Name]

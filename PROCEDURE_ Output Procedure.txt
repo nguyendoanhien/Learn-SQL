@@ -1,0 +1,11 @@
+CREATE PROCEDURE [spName]
+(@param1 [type]
+@param2 [type] output
+)
+AS
+BEGIN
+	select @param2 = count(*) from A where param1=@param1
+END
+----------------------------------------------------
+DECLARE @x int
+exec [spName] 'ok', @x output

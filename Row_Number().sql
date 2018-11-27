@@ -1,0 +1,1 @@
+SELECT max(ROW_NUMBER() OVER(ORDER BY UserId)) FROM Users

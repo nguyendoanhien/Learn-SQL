@@ -1,0 +1,12 @@
+Create Function [Name] ( @param1 type1, @param2 type2, ...)
+returns DATETIME
+as
+BEGIN
+declare @ThatDate DATETIME
+
+	//
+	//Your CODE
+	//
+
+return @ThatDate
+END

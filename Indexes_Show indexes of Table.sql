@@ -1,0 +1,1 @@
+sp_helpindex [table_name] 
